@@ -6,11 +6,7 @@
         xmlns:local="clr-namespace:FormularioStackPanel"
         mc:Ignorable="d"
         Title="Formulario StackPanel"
-        Icon="Assets\FormLogo.ico"
-        MaxWidth="1000"
-        MinWidth="700"
-        MaxHeight="300"
-        MinHeight="300">
+        Icon="Assets\FormLogo.ico" MaxWidth="1000" MinWidth="700" MaxHeight="300" MinHeight="300">
     <StackPanel>
         <StackPanel Margin="10" Height="50">
             <StackPanel.Background>
