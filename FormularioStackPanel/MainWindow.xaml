@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:FormularioStackPanel"
         mc:Ignorable="d"
         Title="Formulario StackPanel"
-        Icon="Assets\FormLogo.ico" MaxWidth="1000" MinWidth="700" MaxHeight="300" MinHeight="300">
+        Icon="Assets\FormLogo.ico" MaxWidth="1000" MinWidth="500" MaxHeight="300" MinHeight="300">
     <StackPanel>
         <StackPanel Margin="10" Height="50">
             <StackPanel.Background>
@@ -38,7 +38,7 @@
                 </LinearGradientBrush>
             </StackPanel.Background>
             <TextBlock FontWeight="Bold" TextAlignment ="Center" Text="Correo Eletrónico" FontSize="16"/>
-            <TextBox Margin="10" MaxWidth="700"></TextBox>
+            <TextBox HorizontalAlignment="Left" Margin="10" Width="600"></TextBox>
         </StackPanel>
 
         <StackPanel  Orientation="Horizontal" HorizontalAlignment="Right">
